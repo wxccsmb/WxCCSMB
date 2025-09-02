@@ -5,7 +5,7 @@
 const CUSTOMER_NAME = "Webex Customer Experience";
 
 // Use this for asset images
-const CUSTOMER_IMAGE = "https://cdn.glitch.global/210c6f8c-d1af-4379-8421-aff9a0910dd4/Screenshot%202024-09-29%20at%2011.14.38%E2%80%AFAM.png?v=1727594631905";
+const CUSTOMER_IMAGE = "WxCCCisco.png";
 
 
 // Set this stuff once and Fuggedaboutit...
@@ -14,9 +14,9 @@ const IMI_SMS_WEBHOOK = "https://hooks.us.webexconnect.io/events/OER349T058";
 const IMI_CALLBACK_WEBHOOK = "https://hooks.us.webexconnect.io/events/W7AGG29OMZ";
 const IMI_VIDEO_WEBHOOK = "https://hooks.us.webexconnect.io/events/JM54JGXIIJ";
 const demoToolboxUserId = "2127";
-const WHATSAPP_IMAGE = "https://cdn.glitch.global/f35f897e-8337-42eb-9f74-d946f9f001cf/WxCCSMB.png?v=1729607789102";
-const AGENT_IMAGE = "https://cdn.glitch.global/ae9d46bf-4084-4543-a389-bbb7b2ac2eb2/agent.png?v=1728548474429";
-const COBROWSE_IMAGE = "https://cdn.glitch.global/ae9d46bf-4084-4543-a389-bbb7b2ac2eb2/240_F_29972921_7633Hq2BdjTyG0VN9eUu6JO456W3PBdM.jpg?v=1728665314265";
+const WHATSAPP_IMAGE = "WhatsAppCode.png";
+const AGENT_IMAGE = "AgentImage.png";
+const COBROWSE_IMAGE = "CustomerCobrowse.jpg";
   
 
 
@@ -333,7 +333,7 @@ document.getElementById('startmeeting').addEventListener('click', () => {
   
     const frame = document.getElementById("videoframe");
  
-    frame.src = "https://cdn.glitch.global/c1023b4c-23de-4497-9d95-540b5a1fbde5/ZN1Of.png?v=1730179130705";
+    frame.src = "Loading.png";
     setupvideo();
 });
   
